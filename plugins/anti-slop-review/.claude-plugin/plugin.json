@@ -1,0 +1,21 @@
+{
+  "name": "anti-slop-review",
+  "version": "1.0.0",
+  "description": "Audita interfaces web recién construidas en busca de \"AI slop\" (estética y copy genéricos de IA), reporta hallazgos priorizados con evidencia y un slop score por niveles, y propone fixes que solo aplica con tu aprobación.",
+  "author": {
+    "name": "Eric Castro",
+    "email": "comercial@likeik.com"
+  },
+  "keywords": [
+    "ai-slop",
+    "design-review",
+    "frontend",
+    "ui",
+    "ux",
+    "accessibility",
+    "wcag",
+    "cleanup",
+    "audit",
+    "design-system"
+  ]
+}

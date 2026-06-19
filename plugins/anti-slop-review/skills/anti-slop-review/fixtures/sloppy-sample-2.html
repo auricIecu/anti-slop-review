@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sample 2 — nuevos patrones</title>
+<style>
+  body { font-family: Inter, sans-serif; font-size:13px; line-height:1.25; color:#111; }
+  p { max-width: none; }                 /* línea muy larga */
+  .panel { box-shadow:0 1px 2px rgba(0,0,0,.2); padding:17px; margin-bottom:13px; }
+  .panel .card { box-shadow:0 8px 24px rgba(0,0,0,.4); padding:22px; }  /* card anidada + otra sombra */
+  .card2 { box-shadow:0 0 0 1px #ddd; padding:9px; }                    /* tercera receta de sombra */
+  .surface { box-shadow:0 12px 40px rgba(0,0,0,.3); }                    /* cuarta receta */
+  input { padding:8px; }
+  a.btn:focus { outline:none; }          /* foco eliminado sin reemplazo */
+  .status-ok { color:#16a34a; }          /* estado solo por color */
+  .status-err { color:#dc2626; }
+</style>
+</head>
+<body>
+  <h1>Panel</h1>
+  <h3>Resumen</h3>                         <!-- salto h1 -> h3 -->
+  <p>Un párrafo largo sin max-width que se extiende por todo el ancho de la pantalla en pantallas grandes y resulta difícil de leer porque la línea supera con creces los 75 caracteres recomendados para texto corrido cómodo.</p>
+  <div class="panel">
+    <div class="card">Contenido en card anidada.</div>
+  </div>
+  <div class="card2">Otra card.</div>
+  <div class="surface">Otra superficie.</div>
+  <p>Estado: <span class="status-ok">●</span> activo · <span class="status-err">●</span> caído</p>
+  <form>
+    <input type="text" placeholder="Nombre">
+    <input type="email" placeholder="Correo">
+    <a class="btn" href="#">Enviar</a>
+  </form>
+</body>
+</html>

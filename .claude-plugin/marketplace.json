@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "anti-slop-marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace con anti-slop-review: auditoría post-desarrollo de AI slop en interfaces web.",
+  "owner": {
+    "name": "Eric Castro",
+    "email": "comercial@likeik.com"
+  },
+  "plugins": [
+    {
+      "name": "anti-slop-review",
+      "description": "Audita interfaces web recién construidas en busca de \"AI slop\" (estética y copy genéricos de IA), reporta hallazgos priorizados con evidencia y un slop score por niveles, y propone fixes que solo aplica con tu aprobación.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eric Castro",
+        "email": "comercial@likeik.com"
+      },
+      "source": "./plugins/anti-slop-review",
+      "category": "development"
+    }
+  ]
+}
