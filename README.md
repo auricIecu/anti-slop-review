@@ -6,12 +6,10 @@ arreglos con tu aprobación.
 
 ## Instalación
 
-> Reemplaza `<tu-usuario>/<tu-repo>` por la URL real del repositorio donde publiques esto.
-
 En Claude Code:
 
 ```
-/plugin marketplace add <tu-usuario>/<tu-repo>
+/plugin marketplace add auricIecu/anti-slop-review
 /plugin install anti-slop-review@anti-slop-marketplace
 ```
 
