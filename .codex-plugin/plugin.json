@@ -1,0 +1,43 @@
+{
+  "name": "anti-slop-review",
+  "version": "1.0.0",
+  "description": "Audita interfaces web recién construidas en busca de \"AI slop\" (estética y copy genéricos de IA) y propone fixes que solo aplica con tu aprobación.",
+  "author": {
+    "name": "Eric Castro",
+    "email": "comercial@likeik.com",
+    "url": "https://github.com/auricIecu"
+  },
+  "homepage": "https://github.com/auricIecu/anti-slop-review",
+  "repository": "https://github.com/auricIecu/anti-slop-review",
+  "license": "MIT",
+  "keywords": [
+    "ai-slop",
+    "design-review",
+    "frontend",
+    "ui",
+    "ux",
+    "accessibility",
+    "wcag",
+    "cleanup",
+    "audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Anti-Slop Review",
+    "shortDescription": "Auditoría de AI slop en interfaces web, con fixes a tu aprobación",
+    "longDescription": "Revisa una interfaz recién construida contra un catálogo de ~33 patrones de AI slop en 7 categorías (tipografía, color/contraste, layout, accesibilidad, efectos, animación, copy), reporta hallazgos priorizados con evidencia y un slop score por niveles, y propone arreglos que solo aplica con tu aprobación.",
+    "developerName": "Eric Castro",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Acabo de terminar una interfaz, revisa el AI slop.",
+      "Limpia esta página del look genérico de IA."
+    ],
+    "websiteURL": "https://github.com/auricIecu/anti-slop-review",
+    "brandColor": "#7C3AED"
+  }
+}
