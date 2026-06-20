@@ -41,8 +41,9 @@ Funciona en **Claude Code**, **Codex** y cualquier agente compatible con el est�
 npx skills add auricIecu/anti-slop-review
 ```
 
-Instala en `~/.codex/skills/` (Codex global). El skill vive en `skills/anti-slop-review/`,
-la ruta estándar que `npx skills` descubre. También puedes apuntar al subdirectorio:
+Instala en el directorio de skills de Codex (`~/.agents/skills/`, user-level; verificado). El
+skill vive en `skills/anti-slop-review/`, la ruta estándar que `npx skills` descubre. También
+puedes apuntar al subdirectorio:
 `npx skills add https://github.com/auricIecu/anti-slop-review/tree/main/skills/anti-slop-review`.
 
 **Opción B — script de instalación (sin Node):**
@@ -57,8 +58,9 @@ cd anti-slop-review
 ./install.ps1           # Windows
 ```
 
-**Opción C — copia manual:** copia la carpeta `skills/anti-slop-review/` a `~/.codex/skills/`
-(global) o `.agents/skills/` (por proyecto).
+**Opción C — copia manual:** copia la carpeta `skills/anti-slop-review/` a
+`~/.agents/skills/` (o `~/.codex/skills/`) para uso global, o a `.agents/skills/` dentro de
+un proyecto.
 
 Tras instalar, abre una **sesión nueva** y pide: *"revisa el AI slop"*.
 
